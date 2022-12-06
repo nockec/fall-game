@@ -3,35 +3,31 @@
     margin: 0;
 }
 #game{
-    width: 400px;
+    width: 1000px;
     height: 500px;
     border: 1px solid black;
     margin: auto;
     overflow: hidden;
 }
+
+#block{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    position: relative;
+    top: 250px;
+    left: 500px;
+    z-index: 1000000;
+
+}
+
 #character{
-    width: 20px;
-    height: 20px;
-    background-color: red;
+    width: 30px;
+    height: 30px;
+    background-color: blue;
     border-radius: 50%;
     position: relative;
     top: 400px;
     left: 190px;
     z-index: 1000000;
-}
-.block{
-    width: 400px;
-    height: 20px;
-    background-color: black;
-    position: relative;
-    top: 100px;
-    margin-top: -20px;
-}
-.hole{
-    width: 40px;
-    height: 20px;
-    background-color: white;
-    position: relative;
-    top: 100px;
-    margin-top: -20px;
 }
